@@ -234,3 +234,70 @@ img{
 .big-icon{
     font-size:48px;
 } 
+/* -------responsive design------------*/
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 5%;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .home {
+        padding: 100px 5% 20px;
+    }
+
+    .home-info h1 {
+        font-size: 36px;
+    }
+
+    .home-info h2 {
+        font-size: 24px;
+    }
+
+    .about1 .about3 {
+        margin: 0;
+    }
+
+    .portfolio3 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .logo {
+        font-size: 24px;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .home-info h1 {
+        font-size: 28px;
+    }
+
+    .home-info h2 {
+        font-size: 20px;
+    }
+
+    .btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .contact1 {
+        font-size: 20px;
+    }
+
+    .contact2 {
+        font-size: 14px;
+    }
+}
